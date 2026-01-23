@@ -122,7 +122,6 @@ function App() {
   const [resume, setResume] = useState([]);
   const [links, setLinks] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [usingFallback, setUsingFallback] = useState(false);
 
   useEffect(() => {
     const loadData = async () => {
@@ -147,7 +146,6 @@ function App() {
           setProjects(fallbackData.projects);
           setResume(fallbackData.resume);
           setLinks(fallbackData.links);
-          setUsingFallback(true);
         }
       } catch (error) {
         console.log('Using fallback data:', error);
@@ -155,7 +153,6 @@ function App() {
         setProjects(fallbackData.projects);
         setResume(fallbackData.resume);
         setLinks(fallbackData.links);
-        setUsingFallback(true);
       } finally {
         setLoading(false);
       }
