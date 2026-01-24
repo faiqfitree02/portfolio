@@ -82,7 +82,7 @@ const Hero = ({ profile }) => {
               <FiDownload />
               Resume
             </a>
-            <a href={`mailto:${profile?.email || 'faiq@example.com'}`} className="btn btn-secondary">
+            <a href={`mailto:${profile?.email || 'faiqramli123@gmail.com'}`} className="btn btn-secondary">
               <FiMail />
               Contact
             </a>
