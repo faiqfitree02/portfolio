@@ -88,23 +88,7 @@ const Hero = ({ profile }) => {
             </a>
           </motion.div>
 
-          <motion.div className="hero-stats" variants={itemVariants}>
-            <div className="stat">
-              <span className="stat-number">3+</span>
-              <span className="stat-label">Years Experience</span>
-            </div>
-            <div className="stat-divider"></div>
-            <div className="stat">
-              <span className="stat-number">20+</span>
-              <span className="stat-label">Projects Completed</span>
-            </div>
-            <div className="stat-divider"></div>
-            <div className="stat">
-              <span className="stat-number">10+</span>
-              <span className="stat-label">Happy Clients</span>
-            </div>
-          </motion.div>
-        </motion.div>
+
 
         <motion.div 
           className="hero-visual"
