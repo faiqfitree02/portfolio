@@ -14,7 +14,7 @@ const fallbackData = {
     name: 'Muhammad Faiq Fitri',
     title: 'Software Engineer',
     bio: 'Highly competent software engineer with interest in web development and UI/UX design. I love taking on challenging tasks, working collaboratively with diverse teams, and writing clean, readable code. Currently seeking software engineering or IT-related roles.',
-    avatar_url: '/images/profile.jpg',
+    avatar_url: '/images/profile.jepg',
     email: 'faiqramli123@gmail.com',
     phone: '+60 17-737 6965',
     location: 'Kuala Lumpur, Malaysia'
