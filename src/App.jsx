@@ -49,30 +49,40 @@ const fallbackData = {
       live_url: null,
       github_url: 'https://github.com',
       featured: false
+    },
+    {
+      id: 4,
+      title: 'MyKHAS System',
+      description: 'Government web system enhancement project at ICU JPM. Focused on maintaining, debugging, and improving system features for better performance and usability.',
+      image_url: '/images/mykhas-logo.png', 
+      tech_stack: ['PHP', 'Laravel', 'MySQL', 'HTML', 'JavaScript'],
+      live_url: 'https://mykhas.icu.gov.my/log-masuk',
+      github_url: null,
+      featured: true
     }
   ],
   resume: [
     {
       id: 1,
       type: 'experience',
-      title: 'IT Intern',
+      title: 'MySTEP Trainee (IT / Software Support)',
+      organization: 'ICU Jabatan Perdana Menteri',
+      location: 'Putrajaya',
+      start_date: '2026-03',
+      end_date: null,
+      description: 'Maintained and enhanced web applications including the MyKHAS system. Performed bug fixing and feature improvements using PHP, Laravel, HTML, and JavaScript. Assisted in upgrading system modules, improving user experience, and supporting application and data management tasks. Collaborated with team members to ensure system performance, stability, and reliability.',
+      skills: ['PHP', 'Laravel', 'HTML', 'JavaScript', 'MySQL', 'Web Development']
+    },
+    {
+      id: 2,
+      type: 'experience',
+      title: 'Bachelor Intern',
       organization: 'Beyond2u Sdn. Bhd.',
       location: 'Kuala Lumpur',
       start_date: '2025-10',
       end_date: '2026-02',
       description: 'Managed IT asset deployment and PC leasing for corporate clients (TNB & AmBank). Executed hardware maintenance including SSD/RAM upgrades. Provided on-site technical support and software configuration.',
       skills: ['IT Support', 'Hardware Maintenance', 'Asset Management']
-    },
-    {
-      id: 2,
-      type: 'experience',
-      title: 'Part Timer Barista & Floor Service',
-      organization: 'BoxKL',
-      location: 'Kuala Lumpur',
-      start_date: '2025-01',
-      end_date: '2025-04',
-      description: 'Delivered efficient customer service during high-volume periods. Ensured cleanliness and a welcoming environment by maintaining floor organization.',
-      skills: ['Customer Service', 'Time Management', 'Teamwork']
     },
     {
       id: 3,
