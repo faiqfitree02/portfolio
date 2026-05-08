@@ -65,7 +65,7 @@ const fallbackData = {
     {
       id: 1,
       type: 'experience',
-      title: 'MySTEP Trainee (IT / Software Support)',
+      title: 'MySTEP Trainee (IT/ Web Developer)',
       organization: 'ICU Jabatan Perdana Menteri',
       location: 'Putrajaya',
       start_date: '2026-03',
