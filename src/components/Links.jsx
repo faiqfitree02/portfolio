@@ -63,7 +63,7 @@ const Links = ({ links }) => {
           transition={{ duration: 0.6 }}
           className="links-header"
         >
-          <span className="section-label mono">04. Connect</span>
+          <span className="section-label mono">05. Connect</span>
           <h2 className="section-title">Let's Connect</h2>
           <p className="section-subtitle">
             Find me on these platforms or reach out directly. I'm always open to discussing new opportunities, creative ideas, or just having a chat.

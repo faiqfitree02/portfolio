@@ -39,7 +39,7 @@ const Projects = ({ projects }) => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <span className="section-label mono">03. Projects</span>
+          <span className="section-label mono">04. Projects</span>
           <h2 className="section-title">My Work</h2>
           <p className="section-subtitle">
             A collection of projects I've built with passion and attention to detail.

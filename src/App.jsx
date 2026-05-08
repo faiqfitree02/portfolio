@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import React, { useEffect, useState } from 'react';
 import Footer from './components/Footer';
+import Certifications from './components/Certifications';
 import Hero from './components/Hero';
 import Links from './components/Links';
 import Navbar from './components/Navbar';
@@ -192,6 +193,7 @@ function App() {
       <main>
         <Hero profile={profile} />
         <Resume resume={resume} />
+        <Certifications />
         <Projects projects={projects} />
         <Links links={links} />
       </main>
